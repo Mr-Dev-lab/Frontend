@@ -1,6 +1,5 @@
 import { convertFromBackend } from '../utils/formatters';
-
-const API_BASE_URL = 'http://localhost:3000/api';
+import { API_BASE_URL } from '../config/api.config.js';
 
 // Fonction générique pour les requêtes
 const request = async (endpoint, options = {}) => {
